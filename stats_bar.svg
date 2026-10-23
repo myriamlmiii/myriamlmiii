@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 56" width="860" height="56">
+<style>
+
+        .bg { fill: #0d1117; }
+        text { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace; }
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes shimmer {
+            0%, 100% { opacity: 0.7; }
+            50% { opacity: 1; }
+        }
+    
+</style>
+<rect class="bg" width="860" height="56" rx="6"/>
+<line x1="20" y1="1" x2="840" y2="1" stroke="#30363d" stroke-width="0.5"/>
+<line x1="20" y1="55" x2="840" y2="55" stroke="#30363d" stroke-width="0.5"/>
+<g opacity="0" style="animation: fadeUp 0.4s ease 0.00s forwards, shimmer 3s ease-in-out 0.5s infinite;">
+<text x="86" y="24" text-anchor="middle" font-size="16">🧬</text>
+<text x="86" y="42" text-anchor="middle" fill="#39d353" font-size="10" opacity="0.85">Drug Discovery</text>
+</g>
+<g opacity="0" style="animation: fadeUp 0.4s ease 0.10s forwards, shimmer 3s ease-in-out 0.6s infinite;">
+<text x="258" y="24" text-anchor="middle" font-size="16">🕶️</text>
+<text x="258" y="42" text-anchor="middle" fill="#58a6ff" font-size="10" opacity="0.85">Smart Glasses</text>
+</g>
+<g opacity="0" style="animation: fadeUp 0.4s ease 0.20s forwards, shimmer 3s ease-in-out 0.7s infinite;">
+<text x="430" y="24" text-anchor="middle" font-size="16">📚</text>
+<text x="430" y="42" text-anchor="middle" fill="#bc8cff" font-size="10" opacity="0.85">RAG Systems</text>
+</g>
+<g opacity="0" style="animation: fadeUp 0.4s ease 0.30s forwards, shimmer 3s ease-in-out 0.8s infinite;">
+<text x="602" y="24" text-anchor="middle" font-size="16">🌍</text>
+<text x="602" y="42" text-anchor="middle" fill="#e3b341" font-size="10" opacity="0.85">Darija NLP</text>
+</g>
+<g opacity="0" style="animation: fadeUp 0.4s ease 0.40s forwards, shimmer 3s ease-in-out 0.9s infinite;">
+<text x="774" y="24" text-anchor="middle" font-size="16">🇲🇦</text>
+<text x="774" y="42" text-anchor="middle" fill="#ff6b6b" font-size="10" opacity="0.85">Made in Morocco</text>
+</g>
+</svg>
